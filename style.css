@@ -1,0 +1,95 @@
+body{
+  background-color:#101018;
+  color:white;
+  font-family:bold;
+  text-transform:uppercase;
+}
+h1{
+  color:#9b4dff;
+  font-size:50px;
+  text-align:center;
+}
+.jogo{
+border:2px solid #168bff;
+  border-radius:50px;
+  text-align:center;
+  padding:20px;
+  margin:10px;
+  box-shadow:0 4px 15px #168bff;
+  transition:0.3s;
+  opacity:0.9;
+
+}
+.carro{
+  background-color:blue;
+}
+.ação{
+  background-color:red;
+}
+.sobre{
+  border:3px solid red;
+  border-radius:50px;
+  text-align:center;
+  background-color:blue;
+  padding:30px;
+  margin:20px;
+  box-shadow:0 0 30px red;
+}
+.contato{
+  border:4px solid blue;
+  border-radius:50px;
+  text-align:center;
+  background-color:black;
+  box-shadow:0 0 30px blue;
+  padding:30px;
+  margin:30px;
+
+}
+.rodapé p{
+
+  color:white;
+}
+.catagolo{
+  display: flex;
+  flex-wrap:wrap;
+  gap: 30px;
+}
+.menu a {
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  cursor:pointer;
+} 
+.menu a:hover{
+  background-color:blue;
+  padding:10px;
+  border-radius:8px;
+  transition:0.3s;
+}
+.jogo:hover{
+  background-color:blueviolet;
+  transform:scale(1.02) translateY(6px);
+  filter:brightness(1.2);
+  outline:4px solid white;
+}
+
+.jogo img{
+
+  width:90%;
+  height:400px;
+  
+}
+
+
+@media(max-width:601px){
+
+  .jogo img{
+
+    width:100%;
+    height:400px;
+  }
+  .jogo carro{
+
+    width:100%;
+  }
+}
